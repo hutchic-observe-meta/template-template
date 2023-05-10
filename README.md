@@ -1,4 +1,3 @@
-- detect-secrets scan > .secrets.baseline
 - set github setting
   - allow auto-merge
   - automatically delete head branches
@@ -9,5 +8,4 @@
     - valid pr titles
     - sync
 - set github secrets for actions and dependabot
-    - AUTO_MERGE_TOKEN
-    - GH_TOKEN
+  - GH_TOKEN
