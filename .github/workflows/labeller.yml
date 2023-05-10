@@ -11,8 +11,8 @@ jobs:
     - uses: actions/labeler@v4
       continue-on-error: true
       with:
-        repo-token: ${{ secrets.AUTO_MERGE_TOKEN }}
+        repo-token: ${{ secrets.GH_TOKEN }}
     - uses: TimonVS/pr-labeler-action@v4.1.1
       continue-on-error: true
       env:
-        GITHUB_TOKEN: ${{ secrets.AUTO_MERGE_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

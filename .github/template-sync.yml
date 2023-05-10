@@ -1,7 +1,5 @@
 ---
 additional:
-- template-docker
-- template-github-release
 
 files:
 - '!README.md'
