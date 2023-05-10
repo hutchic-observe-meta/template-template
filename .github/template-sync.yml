@@ -1,5 +1,6 @@
 ---
 additional:
+- template-terraform
 
 files:
 - '!README.md'
