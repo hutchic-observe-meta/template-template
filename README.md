@@ -7,5 +7,3 @@
     - pre-commit
     - valid pr titles
     - sync
-- set github secrets for actions and dependabot
-  - GH_TOKEN
