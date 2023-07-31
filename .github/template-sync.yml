@@ -1,6 +1,7 @@
 ---
 additional:
 - template-terraform
+- template-python
 
 files:
 - '!README.md'
